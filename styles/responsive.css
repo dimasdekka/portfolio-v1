@@ -130,3 +130,65 @@
     font-size: 0.7rem;
   }
 }
+
+@media screen and (max-width: 470px) {
+  :root {
+    --sectionPadding: 2rem 0;
+  }
+
+  /* Titles */
+  .section-title {
+    font-size: 1.3rem;
+    margin: 0.6rem 0 1.5rem; 
+  }
+
+  .pre-title {
+    font-size: 0.7rem; 
+  }
+
+  /* Hero Section */
+  #hero {
+    grid-template-columns: 1fr;
+    height: fit-content;
+  }
+
+  .hero-right {
+    order: -1;
+  }
+
+  .hero-left {
+    text-align: center;
+    padding-bottom: 3rem; 
+  }
+
+  .hero-left .pre-title {
+    margin: 0 auto;
+  }
+
+  .hero-name {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  /* Hero Card */
+  .hero-card {
+    width: 80%;
+    margin: 30px auto 30px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .hero-card figure {
+    left: 0%;
+  }
+  /* End of Hero Card */
+
+  /* Skills Section */
+  .skills-grid {
+    gap: 0.5rem;
+  }
+
+  /* Footer */
+  footer {
+    padding: 1rem 0;
+  }
+}
